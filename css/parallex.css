@@ -1,0 +1,78 @@
+html,body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "lato",sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.ping1{
+  background-image: url("../images/london pic.jpg");
+  min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.ping2{
+  background-image: url("../images/london pic.jpg");
+  min-height: 100%;
+}
+
+.ping3{
+  background-image: url("../images/london pic.jpg");
+  min-height: 100%;
+}
+
+.ping1,.ping2,.ping3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+
+}
+
+.ptext{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 27px;
+  
+}
+
+.textBg{
+  background-color: green;
+  padding: 25px;
+}
+
+.light-section{
+  padding: 50px 80px;
+  text-align: center;
+  background-color: bisque;
+  color: green;
+}
+
+.dark-section{
+    padding: 50px 80px;
+    text-align: center;
+    background-color: aqua;
+    color:blueviolet;
+
+}
+
+.green-section{
+    padding: 50px 80px;
+    text-align: center;
+    background-color:hotpink;
+    color:khaki;
+
+
+}
